@@ -1,0 +1,181 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Bingeflix</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+
+
+</head>
+<body>
+  <!-- <div class="preloader">
+    <div class="counter">0</div>
+  </div>
+  <script>
+    function counter(){
+      var count = setInterval(function(){
+        var c = parseInt($('.counter').text());
+        $('.counter').text((++c).toString());
+        if(c == 100){
+          clearInterval(count);
+          $('.cointer').addClass('hide')
+          $('.preloader').addClass('active')
+        }
+      },30)
+    }
+    counter()
+  </script> -->
+
+  <div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+      <div class="netflixLogo">
+        <a id="logo" href="#home"><img src="logo.png" alt="Logo Image"></a>
+      </div>      
+      <nav class="main-nav">                
+        <a href="#home">Home</a>
+        <a href="#tvShows">TV Shows</a>
+        <a href="#movies">Movies</a>
+        <a href="#Kids">Kids</a> 
+      </nav>   
+    </header>
+    <!-- END OF HEADER -->
+    
+    <!-- MAIN CONTAINER -->
+    <!-- <button class="custom-btn btn-3"  onclick="window.location.href='index.html';"><span>Close</span></button> -->
+    <section class="main-container" >
+      
+      <div class="location" id="home">
+
+          <h1 id="home">Popular on Bingeflix</h1>
+          <div class="box">
+
+            <a href="Home/1)Tom&Jerry.html" class="popup1_open"><img class="imge" src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/1)Tom%20and%20Jerry.jpeg?raw=true" title="Tom & Jerry" style="width: 130px;height: 187px;"></a>
+            <a href="Home/2)Strangerthings.html" class="popup2_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/2)Stranger%20Things.png?raw=true" title="Stranger Things" style="width: 130px;height:187px;"></a>
+            <a href="Home/3)JusticeLeagueZS.html" class="popup3_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/3)Synder's%20Justice%20League.jpg?raw=true" title="Zack Snyder's Justice League" style="width: 130px;height:187px;"></a>
+            <a href="Home/4)GodzillavsKong.html" class="popup4_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/4)Godzilla%20vs%20Kong.jpg?raw=true" title="Godzilla vs Kong" style="width: 130px;height:187px;"></a>            
+            <a href="Home/5)Master.html" class="popup5_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/5)Master.jpeg?raw=true" title="Master" style="width: 130px;height:187px;"></a>
+            <a href="Home/6)Drishyam2.html" class="popup6_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/6)Drishyam2.jpg?raw=true" title="Drishyam 2" style="width: 130px;height:187px;"></a>
+            <a href="Home/7)WandaVision.html" class="popup7_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/7)WandaVision.jpg?raw=true" title="WandaVision" style="width: 130px;height:187px;"></a>
+            <a href="Home/8)TheShawshankRedemption.html" class="popup8_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/8)The%20Shawshank%20Redemption.jpg?raw=true" title="The Shawshank Redemption" style="width: 130px;height:187px;"></a>
+            <a href="Home/9)Tenet.html" class="popup9_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/9)Tenet.jpg?raw=true" title="Tenet" style="width: 130px;height:187px;"></a>
+            <a href="Home/10)TheFalconandtheWintersoldier.html" class="popup10_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/10)The%20Falcon%20and%20the%20Winter%20Soldier.jpeg?raw=true" title="The Falcon & The Winter Soldier" style="width: 130px;height:187px;"></a>
+            <a href="Home/11)TheDarkKnight.html" class="popup11_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/11)The%20Dark%20Knight.jpg?raw=true" title="The Dark Knight" style="width: 130px;height:187px;"></a>
+            <a href="Home/12)GameofThrones.html" class="popup12_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/12)Game%20of%20Thrones.jpg?raw=true" title="Game of Thrones" style="width: 130px;height:187px;"></a>
+            <a href="Home/13)BossBaby.html" class="popup13_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/13)Boss%20Baby.jpg?raw=true" title="Boss Baby" style="width: 130px;height:187px;"></a>
+            <a href="Home/14)Friends.html" class="popup14_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/14)Friends.jpg?raw=true" title="Friends" style="width: 130px;height:187px;"></a>
+            <a href="Home/15)Titanic.html" class="popup15_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/15)Titanic.jpg?raw=true" title="Titanic" style="width: 130px;height:187px;"></a>
+            <a href="Home/16)KGF.html" class="popup16_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/16)KGF.jpg?raw=true" title="KGF" style="width: 130px;height:187px;"></a>
+          </div>
+      </div>
+      
+      
+    <h1 id="tvShows">TV Shows</h1>
+    <div class="box">
+        <a href="Home/17)NeverHaveIEver.html" class="popup17_open"><img class="imge" src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/17)%20Never%20Have%20I%20Ever.jpg?raw=true" title="Never Have I Ever" style="width: 130px;height: 187px;"></a>
+        <a href="Home/18)TheBoys.html" class="popup18_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/18)The%20Boys.jpg?raw=true" title="The Boys" style="width: 130px;height:187px;"></a>
+        <a href="Home/19)TheMandalorian.html" class="popup19_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/19)The%20Mandalorian.jpg?raw=true" title="The Mandalorian" style="width: 130px;height:187px;"></a>
+        <a href="Home/20)TheQueen'sGambit.html" class="popup20_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/20)The%20Queen's%20Gambit.png?raw=true" title="The Queen's Gambit" style="width: 130px;height:187px;"></a>
+        <a href="Home/21)TheGoodDoctor.html" class="popup21_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/21)The%20Good%20Doctor.jpg?raw=true" title="The Good Doctor" style="width: 130px;height:187px;"></a>
+        <a href="Home/22)PrisonBreak.html" class="popup22_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/22)Prison%20Break.jpg?raw=true" title="Prison Break" style="width: 130px;height:187px;"></a>
+        <a href="Home/23)PeakyBlinders.html" class="popup23_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/23)Peaky%20Blinders.jpg?raw=true" title="Peaky Blinders" style="width: 130px;height:187px;"></a>
+        <a href="Home/24)TheOriginals.html" class="popup24_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/24)The%20Originals.jpg?raw=true" title="The Originals" style="width: 130px;height:187px;"></a>
+        <a href="Home/25)Lucifer.html" class="popup25_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/25)Lucifer.jpg?raw=true" title="Lucifer" style="width: 130px;height:187px;"></a>
+        <a href="Home/26)BreakingBad.html" class="popup26_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/26)Breaking%20Bad.jpg?raw=true" title="Breaking Bad" style="width: 130px;height:187px;"></a>
+        <a href="Home/27)TheVampireDiaries.html" class="popup27_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/27)The%20Vampire%20Diaries.jpg?raw=true" title="The Vampire Diaries" style="width: 130px;height:187px;"></a>
+        <a href="Home/28)Riverdale.html" class="popup28_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/28)Riverdale.jpg?raw=true" title="Riverdale" style="width: 130px;height:187px;"></a>
+        <a href="Home/29)13ReasonsWhy.html" class="popup29_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/29)13%20Reasons%20Why.jpg?raw=true" title="13 Reasons Why" style="width: 130px;height:187px;"></a>
+        <a href="Home/30)MoneyHeist.html" class="popup30_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/30)Money%20Heist.jpg?raw=true" title="Money Heist" style="width: 130px;height:187px;"></a>
+        <a href="Home/31)Dark.html" class="popup31_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/31)Dark.jpg?raw=true" title="Dark" style="width: 130px;height:187px;"></a>
+        <a href="Home/32)Daredevil.html" class="popup32_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/32)Daredevil.jpg?raw=true" title="Marvel's Daredevil" style="width: 130px;height:187px;"></a>       
+    </div>
+      
+
+      <h1 id="movies">Blockbuster Movies</h1>
+      <div class="box">
+        <a href="Home/33)Avatar.html" id="mov1" class="popup33_open"><img class="imge" src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/33)Avatar.jpg?raw=true" title="Avatar" style="width: 130px;height: 187px;"></a>
+        <a href="Home/34)Anandam.html" class="popup34_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/34)Anandam.jpg?raw=true" title="Aanandam" style="width: 130px;height:187px;"></a>
+        <a href="Home/35)OhMyKadavule.html" class="popup35_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/35)Oh%20My%20Kadavule.jpg?raw=true" title="Oh My Kadavule" style="width: 130px;height:187px;"></a>
+        <a href="Home/36)Aashiqui2.html" class="popup36_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/36)Aashiqui%202.jpg?raw=true" title="Aashiqui 2" style="width: 130px;height:187px;"></a>
+        <a href="Home/37)MissionImpossibleFallout.html" class="popup37_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/37)Mission%20Impossible%20-%20Fallout.jpg?raw=true" title="Mission Impossible - Fallout" style="width: 130px;height:187px;"></a>
+        <a href="Home/38)Bahubali2.html" class="popup38_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/38)Bahubali%202.jpg?raw=true" title="Bahubali 2" style="width: 130px;height:187px;"></a>
+        <a href="Home/39)Dia.html" class="popup39_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/39)Dia.jpg?raw=true" title="Dia" style="width: 130px;height:187px;"></a>
+        <a href="Home/40)ThePursuitofHappiness.html" class="popup40_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/40)The%20Pursuit%20of%20Happiness.jpg?raw=true" title="The Pursuit of Happiness" style="width: 130px;height:187px;"></a>
+        <a href="Home/41)Parasite.html" class="popup41_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/41)Parasite.jpg?raw=true" title="Parasite" style="width: 130px;height:187px;"></a>
+        <a href="Home/42)AvengerInfinityWar.html" class="popup42_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/42)Avengers%20Infinity%20War.jpg?raw=true" title="Avengers Infinity War" style="width: 130px;height:187px;"></a>
+        <a href="Home/43)Premam.html" class="popup43_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/43)Premam.jpg?raw=true" title="Premam" style="width: 130px;height:187px;"></a>
+        <a href="Home/44)MSDhoniUntoldStory.html" class="popup44_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/44)MS%20Dhoni.jpg?raw=true" title="MS Dhoni - The Untold Story" style="width: 130px;height:187px;"></a>
+        <a href="Home/45)TraintoBusan.html" class="popup45_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/45)Train%20to%20Busan.jpg?raw=true" title="Train to Busan" style="width: 130px;height:187px;"></a>
+        <a href="Home/46)Jersey.html" class="popup46_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/46)Jersey.jpg?raw=true" title="Jersey" style="width: 130px;height:187px;"></a>
+        <a href="Home/47)SooraraiPottru.html" class="popup47_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/47)Soorarai%20Pottru.jpg?raw=true" title="Soorarai Pottru" style="width: 130px;height:187px;"></a>
+        <a href="Home/48)FiveFeetApart.html" class="popup48_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/48)Five%20Feet%20Apart.jpg?raw=true" title="Five Feet Apart" style="width: 130px;height:187px;"></a> 
+      </div>
+
+      <h1 id="Kids">Kids</h1>
+      <div class="box">
+        <a href="Home/49)Zootopia.html" id="mov1" class="popup49_open"><img class="imge" src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/49)Zootopia.jpeg?raw=true" title="Zootopia" style="width: 130px;height: 187px;"></a>
+        <a href="Home/50)HowToTrainYourDragon3.html" class="popup50_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/50)How%20to%20train%20your%20dragon%203.png?raw=true" title="How to Train your Dragon 3" style="width: 130px;height:187px;"></a>
+        <a href="Home/51)Ratatouille.html" class="popup51_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/51)Ratatouille.jpg?raw=true" title="Ratatouille" style="width: 130px;height:187px;"></a>
+        <a href="Home/52)Soul.html" class="popup52_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/52)Soul.jpg?raw=true" title="Soul" style="width: 130px;height:187px;"></a>
+        <a href="Home/53)IceAgeContinentalDrift.html" class="popup53_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/53)Ice%20Age%20Continental%20Drift.jpeg?raw=true" title="Ice Age:Continental Drift" style="width: 130px;height:187px;"></a>
+        <a href="Home/54)ToyStory4.html" class="popup54_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/54)Toy%20Story%204.jpg?raw=true" title="Toy Story 4" style="width: 130px;height:187px;"></a>
+        <a href="Home/55)WallE.html" class="popup55_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/55)Wall%20E.jpg?raw=true" title="Wall-E" style="width: 130px;height:187px;"></a>
+        <a href="Home/56)FindingNemo.html" class="popup56_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/56)Finding%20Nemo.jpg?raw=true" title="Finding Nemo" style="width: 130px;height:187px;"></a>
+        <a href="Home/57)Incredibles2.html" class="popup57_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/57)Incredibles%202.jpg?raw=true" title="Incredibles 2" style="width: 130px;height:187px;"></a>
+        <a href="Home/58)HotelTransylvania.html" class="popup58_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/58)Hotel%20Transylvania.jpg?raw=true" title="Hotel Transylvania" style="width: 130px;height:187px;"></a>
+        <a href="Home/59)SpidermanIntoTheSpiderverse.html" class="popup59_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/59)Spiderman%20Into%20the%20spiderverse.png?raw=true" title="Spider Man:Into the Spiderverse" style="width: 130px;height:187px;"></a>
+        <a href="Home/60)PenguinsofMadagascar.html" class="popup60_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/60)Penguins%20of%20Madagascar.jpg?raw=true" title="Penguins of Madagascar" style="width: 130px;height:187px;"></a>
+        <a href="Home/61)AngryBirds2.html" class="popup61_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/61)Angry%20Birds%202.jpg?raw=true" title="Angry Birds 2" style="width: 130px;height:187px;"></a>
+        <a href="Home/62)Frozen2.html" class="popup62_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/62)Frozen%202.jpg?raw=true" title="Frozen 2" style="width: 130px;height:187px;"></a>
+        <a href="Home/63)KungFuPanda3.html" class="popup63_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/63)Kung%20Fu%20Panda%203.jpg?raw=true" title="Kung Fu Panda 3" style="width: 130px;height:187px;"></a>
+        <a href="Home/64)RalphBreakstheInternet.html" class="popup64_open"><img src="https://github.com/Dharsh03/Tictactoe.github.io/blob/main/Images/Home/64)Ralph%20breaks%20the%20internet.jpg?raw=true" title="Ralph Breaks the Internet" style="width: 130px;height:187px;"></a>
+        </div>
+     
+    <!-- END OF MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    
+      <h1>Contact</h1>
+      <div class="logos">
+        <a href="https://www.facebook.com/profile.php?id=100006213977830" target="_blank"><img src="https://img.icons8.com/nolan/48/facebook.png"/></a>
+        <a href="https://www.instagram.com/_dharsh_1/" target="_blank"><img src="https://img.icons8.com/nolan/48/instagram-new.png"/></a>
+        <a href="https://twitter.com/mr.dharsh/" target="_blank"><img src="https://img.icons8.com/nolan/48/twitter.png"/></a>
+        
+      </div>
+      <!-- <div class="sub-links">
+        <ul>
+          <li><a href="4O4.html">Audio and Subtitles</a></li>
+          <li><a href="404.html">Audio Description</a></li>
+          <li><a href="404.html">Help Center</a></li>
+          <li><a href="404.html">Gift Cards</a></li>
+          <li><a href="404.html">Media Center</a></li>
+          <li><a href="404.html">Investor Relations</a></li>
+          <li><a href="404.html">Jobs</a></li>
+          <li><a href="404.html">Terms of Use</a></li>
+          <li><a href="404.html">Privacy</a></li>
+          <li><a href="404.html">Legal Notices</a></li>
+          <li><a href="404.html">Corporate Information</a></li>
+          <li><a href="404.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- END OF LINKS -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copyright 2021 Dharsh</p>
+    </footer>
+    <a class="Follow" href="https://www.instagram.com/mr.dharsh/" target="blank_"></a>
+    
+  </div>
+</body>
+</html>
+<!---<a href="#net"><img src="https://apkhubs.com/logo/netflix-7430-build-15-34692-apk-mod-premium-for-android.jpg" style="width:75px;height: 75px;"/></a>
+<a href="#you"><img src="https://seeklogo.com/images/Y/youtube-square-logo-3F9D037665-seeklogo.com.png" style="width:75px;height: 75px;"/></a>
+<a href="#prime"><img src="https://store-images.s-microsoft.com/image/apps.27073.14618985536919905.dee6fc2f-7908-497d-8aa7-395befb36297.85cc91ac-8477-4705-bc24-4196d5bf85a2" style="width:75px;height: 75px;"/></a>
+<a href="#hot"><img src="https://store-images.s-microsoft.com/image/apps.9878.14495311847124170.294fed91-ba37-4b8a-83dc-b4098d97cebb.df2390ec-16fb-4849-a952-5f4780c309bd" style="width:75px;height: 75px;"/></a>-->
